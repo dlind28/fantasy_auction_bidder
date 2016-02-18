@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Live Fantasy Football Auction Draft</title>
+  <meta name="description" content="Auction Draft Bidder and Countdown">
+  <meta name="author" content="Devon Lind">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+
+<body>
+
+	<div class="time-wrap">
+		<div id="time-title">Time Remaining</div>
+		
+		<div id="time">30</div>
+		<div class="one-third"><div class="btn" id="start_btn">Start</div></div>
+		<div class="one-third"><div class="btn" id="pause_btn">Pause</div></div>
+		<div class="one-third"><div class="btn" id="reset_btn">Reset</div></div>
+	
+	</div>
+	<div class="bid-wrap">
+		<div id="bid-title">Current Bid</div>
+		
+		<div class="current-bid-wrap">
+		<span id="dollar">$</span>
+		<input id="current_bid" type=number value=0>
+		</div>
+
+		
+		<div class="btn" id="bid_btn">Bid</div>
+	</div>
+
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/scripts.js"></script>
+  
+
+</body>
+</html>

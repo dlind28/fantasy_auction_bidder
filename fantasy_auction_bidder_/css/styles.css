@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('fonts/lato-light.ttf');
+  /*src: url('fonts/lato/lato-black.eot?#iefix') format('embedded-opentype');*/
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('fonts/proximanova-reg-webfont.ttf');
+  /*src: url('fonts/lato/lato-black.eot?#iefix') format('embedded-opentype');*/
+  font-style: normal;
+}
+
+
+
+html{
+	background: #1d1d1d;
+	color: white;
+	font-family: 'Proxima Nova', sans-serif;
+	font-weight: 100;
+}
+
+.time-wrap{
+	max-width: 700px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	border-bottom: 1px solid white;
+	padding-bottom: 30px;
+}
+
+#time-title{
+	text-transform: uppercase;
+	font-size: 40px;
+}
+
+#time{
+	font-size: 250px;
+	font-family: 'Lato', sans-serif;
+	margin: 30px 0;
+	
+}
+.one-third{
+	width: 30%;
+	display: inline-block;
+}
+.btn{
+	text-transform: uppercase;
+	font-size: 25px;
+	cursor: pointer;
+	padding: 8px 0;
+	margin-right: auto;
+	margin-left: auto;
+}
+#start_btn {
+	background-color: #32b5d9;
+	width: 90%;
+}
+#pause_btn{
+	background-color: #d93232;
+	width: 90%;
+}
+#reset_btn{
+	background-color: #d9d132;
+	width: 90%;
+}
+#start_btn:hover {
+	background-color: #36c6ed;
+	width: 90%;
+}
+#pause_btn:hover{
+	background-color: #eb3636;
+	width: 90%;
+}
+#reset_btn:hover{
+	background-color: #eae135;
+	width: 90%;
+}
+#start_btn:active {
+	border: white;
+}
+#pause_btn:active{
+	border: white;
+}
+#reset_btn:active{
+	border: white;
+}
+
+
+
+
+.bid-wrap{
+	max-width: 700px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+#bid-title{
+	text-transform: uppercase;
+	font-size: 40px;
+}
+
+#dollar{
+	font-size: 100px;
+	vertical-align: top;
+}
+.winner, .winner input{
+	background: #31d87c !important;
+}
+#current_bid{
+	font-size: 200px;
+	font-family: 'Lato', sans-serif;
+	margin: 30px 0 10 0;
+	width: 45%;
+	color: white;
+	background: #1d1d1d;
+	outline: none;
+	border: transparent;
+}
+
+.red{
+	color: #eb3636;
+}
+
+
+
+#bid_btn{
+	text-transform: uppercase;
+	font-size: 25px;
+	cursor: pointer;
+	padding: 15px 0;
+	width: 88%; 
+	background: #31d87c;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+}
+#bid_btn:hover{
+	background: #3bf48f;
+	
+}
